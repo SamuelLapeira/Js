@@ -1,5 +1,5 @@
 <h1>Memoria del portfolio js de Lenguajes de Marcas - 1º DAW</h1>
-<h2>Introduciión</h2>
+<h2>Introducción</h2>
 <p>Trabajo realizado en clase por: Samuel Lapeira Pérez</p>
 <p>Proyecto de web "Portfolio js" de 3ª evaluación de Lenguajes de Marcas</p>
 <p>Mayo de 2024 </p>

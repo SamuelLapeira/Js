@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcular letra dni</title>
+    <!--Enlace a bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body class="bg-dark">
+    <div class="container">
+
+        <div class="row justify-content-center align-items-center min-vh-100">
+
+            <div class="col-lg-12 form-container">
+                <form class="border border-danger p-5 rounded">
+
+                    <h1 class="text-center">
+                        <span class="text-white">Calcular</span> 
+                        <span class="text-danger">letra</span>
+                        <span class="text-white">DNI</span>
+                    </h1>
+
+                    <div class="mb-3">
+                        <label for="dni" class="form-label text-white">Escriba su DNI:</label>
+                        <input type="text" class="form-control" id="dni" placeholder="Número entero 1-7">
+                        <!--Mensaje de error-->
+                        <span id="errorDni" class="text-danger"></span>  
+                    </div>
+
+                    <button type="button" class="btn btn-danger mb-3" id="calcularBoton">Calcular</button>
+
+                    <!--Resultado calculo de la letra del dni-->
+                    <p id="resultado" class="mt-3 text-white"></p>
+
+                    <a href="../Indice.html" class="text-danger text-decoration-none">Volver</a>
+                </form>
+            </div>
+
+        </div>
+
+    </div>
+    <!--Enlace al fichero js-->
+    <script src="Ejercicio04.js"></script>
+</body>
+</html>
